@@ -1,0 +1,153 @@
+/* Styling for the container div */
+.block {
+  position: relative;
+  width: 100%;
+}
+
+/* Styling for the div with 100% viewport height */
+.custom-height {
+  height: 50vh; /* Adjust the percentage as needed */
+  /* You can add other styles here */
+}
+/* Styling for the carousel root */
+.carousel-root {
+  position: relative;
+  width: 105%;
+  overflow: hidden;
+}
+
+/* Styling for the carousel/slider */
+.carousel-slider {
+  width: 105%;
+  position: relative;
+}
+
+/* Styling for the control buttons */
+.control-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.control-arrow:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.control-prev {
+  left: 10px;
+}
+
+.control-next {
+  right: 10px;
+}
+
+.control-disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/* Styling for the slider wrapper */
+.slider-wrapper {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+/* Styling for the list of slides */
+.slider {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  transition: transform 0.3s ease;
+}
+
+/* Styling for individual slides */
+.slide {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  transition: transform 1s ease-in-out; /* Slide transition effect */
+}
+
+/* Styling for the image inside each slide */
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Styling for text content inside slides */
+.slide .flex-1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(9, 42, 89, 0.3);
+  padding: 20px;
+  text-align: center;
+}
+
+/* Styling for the Vision, Philosophy, and Mission elements */
+.slide .bg-c-red {
+  background-color: #ff0000; /* Change to your desired color */
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Styling for the text content */
+.slide p {
+  font-size: 25px;
+  font-weight: bold;
+  color: #e8eaee;
+}
+
+/* Rectangle 1 styles */
+.slide .rectangle1 {
+  width: 195px;
+  height: 43px;
+  top: 270px;
+  left: 40px;
+  background-color: #a22531;
+  position: absolute;
+  color: #ffffff;
+}
+
+.slide .rectangle1 .text1 {
+  background-color: #ffffff;
+}
+
+/* Rectangle 2 styles */
+.slide .rectangle2 {
+  width: 614px;
+  height: 110px;
+  top: 313px;
+  left: 40px;
+  background-color: #ffffffc9;
+  position: absolute;
+  color: #000000;
+}
+
+.slide .rectangle2 .text2 {
+  background-color: #000000;
+  color: #ffffff;
+}

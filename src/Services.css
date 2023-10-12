@@ -1,0 +1,30 @@
+/* Services.css */
+
+.service-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #092A59; /* Change to your desired text color */
+    margin-bottom: 20px;
+  }
+  
+  .image-slider {
+    width: 100%;
+    max-width: 600px; /* Set your desired maximum width */
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image-slider img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  /* Optionally, you can add additional styles for the images, e.g., border-radius, box-shadow, etc. */
+  
