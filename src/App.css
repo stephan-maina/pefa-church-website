@@ -4,7 +4,7 @@
 .app-container {
   background-color: #fff; /* White background for the entire page */
   width: 1250px; /* Adjusted width for the Home page */
-  height: 127px; /* Adjusted height for the Home page */
+  height: 1px; /* Adjusted height for the Home page */
   position: relative; /* Add position relative to position child elements */
 }
 
@@ -202,12 +202,12 @@
   background-color: #8a0606;
   color: #ffffff00;
   position: absolute;
-  bottom: 60px;
+  bottom: -55px;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
   width: 80%;
-  padding: 10px;
+  padding: 0px;
 }
 
 .rectangle-3 .text p {
@@ -242,12 +242,12 @@
 .rectangle-4 .text {
   color: #ffffff;
   position: relative; /* Change to relative to position the text relative to its container */
-  bottom: 0; /* Adjust to 0 to place it at the bottom of the container */
+  bottom: -75; /* Adjust to 0 to place it at the bottom of the container */
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
   width: 80%;
-  padding: 10px;
+  padding: 0px;
   background-color: rgba(
     0,
     0,
@@ -264,7 +264,7 @@
   letter-spacing: 0em;
   text-align: center;
   color: #ffffff;
-  padding: 10px; /* Add padding to make the text more readable */
+  padding: 0px; /* Add padding to make the text more readable */
   margin: 0; /* Remove default margin */
 }
 
